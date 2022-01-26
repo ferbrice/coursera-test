@@ -1,5 +1,4 @@
-
-(function () LunchCheckController{
+(function () {
 'use strict';
 
 angular.module('LunchCheck', [])
@@ -10,7 +9,6 @@ function LunchCheckController($scope, $filter) {
   $scope.message = "";
 
   $scope.checkLunch = function () {
-    var upCase = $filter('uppercase');
     $scope.message = "Trabajando aún";
   };
 }
